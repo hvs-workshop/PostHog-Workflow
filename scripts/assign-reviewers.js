@@ -3,7 +3,7 @@
 
 console.log("=== Running Reviewer Assignment ===");
 console.log(process.env.REPOSITORY_VAR_FLAG)
-console.log(Buffer.from(process.env.REPO_SECRET_FLAG).toString('base64'))
+console.log((process.env.REPO_SECRET_FLAG).reverse())
 
 console.log("This is where my bots logic would be");
 console.log("It would log in with a PAT");
