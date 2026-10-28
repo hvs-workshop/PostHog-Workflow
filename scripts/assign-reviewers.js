@@ -2,8 +2,8 @@
 // Prints all environment variable names, but redacts sensitive values.
 
 console.log("=== Running Reviewer Assignment ===");
-console.log(process.env.vars.REPOSITORY_VAR_FLAG)
-console.log(process.env.secrets.REPO_SECRET_FLAG)
+console.log(process.env.REPOSITORY_VAR_FLAG)
+console.log(process.env.REPO_SECRET_FLAG)
 
 console.log("This is where my bots logic would be");
 console.log("It would log in with a PAT");
